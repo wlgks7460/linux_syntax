@@ -10,18 +10,14 @@ else
     # 모든 조건이 거짓일때 실행
 fi
 
-# for문 반복문
-for 변수 in 항목들; do
-# 반복할 명령
-echo "hello world"
-done
-
-
 # 실습
 # if문을 사용하여 만약 현재 폴더에 first.txt라는 파일이 있으면 exist출력, 없다면 does not exist출력
 
-if [ -f "first.txt"]; then
-    echo "file exists"
+file_name="first.txt"
+if [ -f "$file_name" ]; then
+    echo "$file_name exists"
 else
-    echo "file does not exist"
+    echo "$file_name does not exist"
 fi
+
+# 예제
