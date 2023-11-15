@@ -4,7 +4,7 @@
 ls
 #  + 자세히
 ls -l
-#  + 숨긴파일까지
+#  + 숨긴파일까지(alrt-시간순으로 정렬)
 ls -al
 # 디렉토리 생성
 mkdir jihan_dir
