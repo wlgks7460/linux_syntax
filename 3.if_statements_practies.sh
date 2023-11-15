@@ -20,4 +20,3 @@ else
     echo "$file_name does not exist"
 fi
 
-# 예제

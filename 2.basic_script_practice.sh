@@ -7,7 +7,7 @@ mkdir mydir
 cd mydir
 touch file1.txt
 touch file2.txt
-# file1.txt에는 Hello from file1이라는 문구 입력
+# file1.txt에는 Hello from file1이라는 문구 입력 ""
 # file2.txt에는 Hello from file2이라는 문구 입력
 echo "Hello from file1" > file1.txt
 echo "Hello from file2" > file2.txt
